@@ -2,7 +2,7 @@
 #include "DxLib.h"
 #include <math.h>
 //########## マクロ定義 ##########
-#define GAME_WIDTH	720		//画面の横の大きさ
+#define GAME_WIDTH	640		//画面の横の大きさ
 #define GAME_HEIGHT	640		//画面の縦の大きさ
 #define GAME_COLOR	32		//画面のカラービット
 
