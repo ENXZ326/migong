@@ -25,7 +25,7 @@
 
 
 #define GAME_MAP_1		"MAPIMAGE\\MapData1.png"	//マップ画像
-#define GAME_MAP_CSV_1	"MAPIMAGE\\DCD.csv"//マップのCSV
+#define GAME_MAP_CSV_1	"MAPIMAGE\\lan.csv"//マップのCSV
 #define GAME_CHARA_1	"CHARAIMAGE\\333.png"//キャラの画像
 
 
