@@ -20,7 +20,7 @@
 
 #define GAME_BACKIMAGE_1		"BACKIMAGE\\sp1.jpg"				//背景画像
 #define GAME_BACKIMAGE_2		"BACKIMAGE\\side07.jpg"				//背景画像
-#define GAME_BACKIMAGE_3		"BACKIMAGE\\tuzhong.jpg"				//背景画像
+#define GAME_BACKIMAGE_3		"BACKIMAGE\\tuzhong1.jpg"				//背景画像
 
 
 
@@ -522,10 +522,10 @@ VOID MY_GAME_TUZHONG(VOID)
 
 	MY_PLAY_BACKIMAGE2_DRAW();	//背景を描画
 	//DrawString(0, 0, "", GetColor(255, 255, 255));
-	DrawString(0, 30, "ゲーム説明：", GetColor(255,89,38));
+	DrawString(0, 30, "ゲーム説明：", GetColor(0,0,0));
 	DrawString(20, 60, "1.十字キーでキャラクターを移動しよう！", GetColor(0,0,0));
 	DrawString(20, 90, "2.迷宮「MI GONG」を探索して、青い出口を探せ！", GetColor(0,0,0));
-	DrawString(20, 120, "3.逃出成功でき、ゲームクリア！！", GetColor(255, 89, 38));
+	DrawString(20, 120, "3.逃出成功でき、ゲームクリア！！", GetColor(0,0,0));
 	DrawString(20, 150, "4.もしプレイする途中でクリア条件が忘れたら、\nバックスペースキーを押して、ゲーム説明画面に戻ろう!", GetColor(0,0,0));
 
 
